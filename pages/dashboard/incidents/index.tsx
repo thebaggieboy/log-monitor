@@ -51,7 +51,7 @@ export default function IncidentsPage() {
         hour: "2-digit",
         minute: "2-digit",
       }
-      setCurrentDateTime(now.toLocaleDateString("en-US", options) + " GMT")
+      //setCurrentDateTime(now.toLocaleDateString("en-US", options) + " GMT")
     }
 
     updateDateTime()
@@ -635,7 +635,7 @@ export default function IncidentsPage() {
             </div>
 
             <div className="flex items-center space-x-4">
-              <div className="text-sm text-gray-500 hidden md:block">{currentDateTime}</div>
+              <div className="text-sm text-gray-500 hidden md:block"></div>
               <button className="p-1.5 rounded-full text-gray-500 hover:bg-gray-100 relative">
                 <Bell className="h-5 w-5" />
                 <span className="absolute top-0 right-0 h-2 w-2 rounded-full bg-red-500"></span>
